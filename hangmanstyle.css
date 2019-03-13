@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+.img-container {
+    
+    width: auto;
+    padding: 5px;
+    height: 235px; 
+    padding-right: 5px;
+    margin-bottom: 120px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.instructions {
+    float: right;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 400px;
+    position: absolute;
+    width: 300px;
+    
+}
+body {
+    background-color: #00b300;
+    background-size: cover;
+    
+}
+#button {
+    width: 9em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+a {
+    
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: #eff;
+}
+.instructions {
+    
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}

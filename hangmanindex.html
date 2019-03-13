@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" id="viewport" content="width=960">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Hangman game</title>
+        <link rel ="stylesheet" href="hangmanstyle.css">
+        <link rel ="stylesheet" href="css/lightbox.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+
+        
+    </head>
+
+    <body>
+        <h1 style="font-size: 4em; color: darkred">Word Guessing Game</h1>
+        <h2>Guessed words so far</h2>
+        <p id="word" style=" 
+        margin-left: 60px;
+        ">_ _ n _ t _</p>
+        <h3 class="instructions">USE THE IMAGES AS A HINT<br>GOOD LUCK HAVE FUN!</h3>
+
+        <h2 style="margin-top: 50px;">Alphabets Guessed</h2>
+        <ul id="past-guesses">
+            
+        </ul>
+
+        <h2>Guess</h2>
+        <p>You have <span id="guesses-left"></span> Guesses left</p>
+        <form id="player-input">
+            <input id="player-guess" type="text"/>
+            <input type="submit"/>       
+        </form> 
+
+        <div class="gallery"> 
+            <h2 id="LMAO"><em>Hint photos</em></h2> 
+            <div class="img-container">
+                <a href="images/ignitestickresized2.jpg" data-lightbox="mygallery" data-title="LMAO"><img src="images/ignitestickresized.jpg" alt=""></a>
+                <a href="images/firestyleresized2.jpg" data-lightbox="mygallery"><img src="images/firestyleresized.jpg"></a>
+                
+                <a href="images/elementresized2.jpg" data-lightbox="mygallery"><img src="images/elementresized.jpg" alt=""></a>
+                <a href="images/alanwalkerresized2.jpg" data-lightbox="mygallery"><img src="images/alanwalkerresized.jpg"></a> 
+                
+            </div>    
+        </div>
+        <div class="menu">
+                <ul>
+                    <div id="button"><a href="index.html" style="margin-left: 50px">Home</a></div>
+                    <br>
+                    <div id="button"><a href="tictactoe.html" style="margin-left: 19px">Play Tic Tac Toe</a></div>
+                    <br>
+                    <div id="button"><a href="tagguess.html" style="margin-left: 10px">Tag Guessing Game</a></div>
+                </ul>
+            </div>
+        <script src="./hangmanscript.js"></script>
+    </body>
+</html>

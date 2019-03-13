@@ -1,0 +1,47 @@
+body {
+    background: #cccc;
+} 
+#Header a:hover {
+    color:#fff
+}
+#bg-img {
+    background: url('../images/back.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+#About 
+{
+    margin-top: -90px;
+}
+#About .fa 
+{
+    color:#FFF;
+}
+#Skills span 
+{
+    padding: 10px 20px 18px 20px;
+} 
+#Skills 
+{
+    border-width: 10px;
+    margin-top: 06px;
+} 
+a {
+    color: #d9d9d9;
+    text-decoration: none;
+    background-color: transparent;
+}
+#Experience span 
+{
+    padding: 10px 20px 10px 20px;
+}
+#Experience hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
+#Experience .card 
+{
+    border-top: 03px solid #d63031
+}
